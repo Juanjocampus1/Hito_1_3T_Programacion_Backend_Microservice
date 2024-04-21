@@ -1,0 +1,21 @@
+
+™	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø®•Æúÿÿÿÿ8Î‡½Œğ1J$41cafe9c-4bb1-4b8e-ac76-cfbfbe9fbdd5
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(§Ä¼8Ğ‡½Œğ1J$c746072a-e250-49b4-bb6f-a6d7e0e95344
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8Ó‡½Œğ1J$9e065ecd-0f9c-4c58-a9c6-f0f42e8d1fb3
+i
+java:S1452"&Remove usage of generic wildcard type.(û­®¡8Ù‡½Œğ1J$8926cd03-356e-4770-b2a6-b754078b01cd
+‰
+java:S1075&"ARefactor your code to get this URI from a customizable parameter.(Üş¢…ûÿÿÿÿ8Ü‡½Œğ1J$586b3a50-da7a-4594-9524-42980fc3578d
+n
+java:S1452+"&Remove usage of generic wildcard type.(Üõ¶¶ûÿÿÿÿ8Ü‡½Œğ1J$5971b18c-31b7-461f-a790-2da0ee7e4cab
+n
+java:S1452D"&Remove usage of generic wildcard type.(åÓêáùÿÿÿÿ8Ş‡½Œğ1J$b3e9735e-e368-4bb8-8c05-de4af6063e3c
+i
+java:S1452Z"&Remove usage of generic wildcard type.(òª’8à‡½Œğ1J$9627f2c8-d746-4825-b3cb-6e1378bd4fbe
+i
+java:S1452m"&Remove usage of generic wildcard type.(¦§Ç³8á‡½Œğ1J$ed09a667-112c-4f23-8199-a33b279412f9
+i
+java:S1452„"&Remove usage of generic wildcard type.(ªûœ-8ã‡½Œğ1J$3e24a87a-b4a9-4b51-9e5b-76dc59c36a46
+o
+java:S1452"&Remove usage of generic wildcard type.(Ø®•Æúÿÿÿÿ8ä‡½Œğ1J$719af1e0-10e0-446f-add6-c7a35ccbd358
