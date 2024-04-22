@@ -44,5 +44,6 @@ public class Inventory {
     @Column(name = "fecha_actualizacion")
     private Date FechaActualizacion;
 
-    private Long IdInform;
+    @Column(name = "id_inform")
+    private Long idInform;
 }

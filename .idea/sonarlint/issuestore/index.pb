@@ -51,3 +51,9 @@ kmicroservice-InventoryReports-API/src/main/java/com/empresa/InventoryReportsAPI
 emicroservice-InventoryReports-API/src/main/java/com/empresa/InventoryReportsAPI/DTO/InventoryDTO.java,6\a\6af9d3e090c4461b0a58605b83ac6df50b2615fd
 “
 cmicroservice-ApiGateway/src/main/java/com/empresa/ApiGateway/MicroserviceApiGatewayApplication.java,6\4\6478484c8231ac5ad9a9b0f6bc05cc1931595554
+™
+imicroservice-ConfigServer/src/main/java/com/empresa/ConfigServer/MicroserviceConfigServerApplication.java,a\9\a90394d80538b4d2641b763e5829bb8a964ffa1f
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e

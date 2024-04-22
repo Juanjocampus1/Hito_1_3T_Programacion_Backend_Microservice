@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 
-@FeignClient(name = "msvc-InventoryManagementCRUDAPI", url = "localhost:8090/api/crud")
+@FeignClient(name = "msvc-InventoryManagementCRUDAPI", url = "localhost:8080/api/crud")
 public interface InventoryClient {
 
-    @GetMapping("/find-by-inform/{IdInform}")
-    List<InventoryDTO> findAllByIdInform (@PathVariable Long IdInform);
+    @GetMapping("/find-by-inform/{idInform}")
+    List<InventoryDTO> findAllByIdInform (@PathVariable Long idInform);
 }

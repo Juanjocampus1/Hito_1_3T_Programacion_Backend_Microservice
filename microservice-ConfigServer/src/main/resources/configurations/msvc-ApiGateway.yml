@@ -1,0 +1,24 @@
+eureka:
+  client:
+    registerWithEureka: false
+
+server:
+  port: 8080
+
+spring:
+  application:
+    name: msvc-ApiGateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: InventoryManagementCRUDAPI
+          uri: http://localhost:8090
+          predicates:
+            - Path=/api/crud/**
+        - id: InventoryReportsAPI
+          uri: http://localhost:9090
+          predicates:
+            - Path=/api/inform/**

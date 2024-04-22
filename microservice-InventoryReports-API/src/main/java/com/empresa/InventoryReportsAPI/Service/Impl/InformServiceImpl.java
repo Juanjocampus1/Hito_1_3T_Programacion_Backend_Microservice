@@ -37,8 +37,25 @@ public class InformServiceImpl implements IInformService {
 
     @Override
     public Inform save(Inform inform) {
+        // Obtener los datos del InventoryDTO desde el otro microservicio
+        List<InventoryDTO> inventoryDTOList = inventoryClient.findAllByIdInform(inform.getId());
+
+        // Construir el contenido del PDF utilizando los datos del InventoryDTO
+        StringBuilder pdfContentString = new StringBuilder("Informe de Inventario\n\n");
+        for (InventoryDTO inventoryDTO : inventoryDTOList) {
+            pdfContentString.append("Nombre del producto: ").append(inventoryDTO.getName()).append("\n");
+            pdfContentString.append("Descripción: ").append(inventoryDTO.getDescription()).append("\n");
+            pdfContentString.append("Stock disponible: ").append(inventoryDTO.getStock()).append("\n");
+            pdfContentString.append("Precio: ").append(inventoryDTO.getPrice()).append("\n");
+            pdfContentString.append("Categoría: ").append(inventoryDTO.getCategory()).append("\n");
+            pdfContentString.append("Proveedor: ").append(inventoryDTO.getProvider()).append("\n");
+            pdfContentString.append("Fecha de creación: ").append(inventoryDTO.getFechaCreacion()).append("\n");
+            pdfContentString.append("Fecha de actualización: ").append(inventoryDTO.getFechaActualizacion()).append("\n");
+            pdfContentString.append("ID de informe: ").append(inventoryDTO.getIdInform()).append("\n\n");
+        }
+
         // Usar el servicio para crear el PDF
-        byte[] pdfContent = pdfService.createSamplePDF("Informe de Inventario", "Contenido del informe.");
+        byte[] pdfContent = pdfService.createSamplePDF("Informe de Inventario", pdfContentString.toString());
         inform.setPdfContent(pdfContent); // Asignar el contenido del PDF a la entidad
 
         return informRepository.save(inform); // Guardar en la base de datos

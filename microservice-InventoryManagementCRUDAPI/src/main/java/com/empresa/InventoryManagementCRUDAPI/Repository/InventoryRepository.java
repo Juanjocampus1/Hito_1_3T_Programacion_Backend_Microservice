@@ -9,6 +9,6 @@ import java.util.List;
 @Repository
 public interface InventoryRepository extends CrudRepository<Inventory, Long>{
 
-    List <Inventory> findAllByIdInform(Long IdInform);
+    List <Inventory> findAllByIdInform(Long idInform);
     Inventory findByName(String name);
 }

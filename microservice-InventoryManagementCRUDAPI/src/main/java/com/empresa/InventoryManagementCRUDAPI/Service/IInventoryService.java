@@ -12,7 +12,7 @@ public interface IInventoryService {
     public Inventory findByName(String name);
     public Inventory save(Inventory inventory);
     public Inventory update(Inventory inventory);
-    public List<Inventory> findAllByIdInform(Long IdInform);
+    public List<Inventory> findAllByIdInform(Long idInform);
     public void deleteById(Long id);
 
 }

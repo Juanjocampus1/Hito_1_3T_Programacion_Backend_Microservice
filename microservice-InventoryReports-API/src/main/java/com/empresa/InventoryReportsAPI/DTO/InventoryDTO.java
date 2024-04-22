@@ -22,5 +22,5 @@ public class InventoryDTO {
     private String provider;
     private Date FechaCreacion;
     private Date FechaActualizacion;
-    private Long IdInform;
+    private Long idInform;
 }

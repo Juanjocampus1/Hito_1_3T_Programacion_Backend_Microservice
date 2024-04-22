@@ -55,8 +55,8 @@ public class InventoryServiceImpl implements IInventoryService {
     }
 
     @Override
-    public List<Inventory> findAllByIdInform(Long IdInform) {
-        return inventoryRepository.findAllByIdInform(IdInform);
+    public List<Inventory> findAllByIdInform(Long idInform) {
+        return inventoryRepository.findAllByIdInform(idInform);
     }
 
     @Override

@@ -1,27 +1,5 @@
-server:
-  port: 9090
-
 spring:
   application:
     name: msvc-InventoryReportsAPI
   config:
     import: optional:configserver:http://localhost:8888
-
-  datasource:
-    driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/reportsdb
-    username: postgre
-    password: curso
-  jpa:
-    hibernate:
-      ddl-auto: create-drop
-    database: postgresql
-    show-sql: true
-    database-platform: org.hibernate.dialect.postgreSQLDialect
-
-eureka:
-  instance:
-    hostname: localhost
-  client:
-    service-url:
-      defaultZone: http://${eureka.instance.hostname}:8761/eureka
