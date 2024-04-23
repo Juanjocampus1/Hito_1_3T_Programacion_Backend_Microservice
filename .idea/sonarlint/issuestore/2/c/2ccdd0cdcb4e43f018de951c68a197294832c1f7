@@ -1,4 +1,4 @@
 
-š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(öƒåÂûÿÿÿÿJ$f6d62717-4a92-43fc-bcd5-38ce435aa9d4
-š	java:S116"XRename this field "FechaCreacion" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›–ËÆ8ÿÓâï1J$b7305c26-89cc-446d-a672-c783a6696140
-¤	java:S116"]Rename this field "FechaActualizacion" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ší–ùÿÿÿÿ8ÿÓâï1J$64f14ee9-af56-48bb-ae61-4c2fa785973f
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(öƒåÂûÿÿÿÿ8¿àÊ»ğ1
+t	java:S116"XRename this field "FechaCreacion" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›–ËÆ8ÁàÊ»ğ1
+~	java:S116"]Rename this field "FechaActualizacion" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ší–ùÿÿÿÿ8ÂàÊ»ğ1
