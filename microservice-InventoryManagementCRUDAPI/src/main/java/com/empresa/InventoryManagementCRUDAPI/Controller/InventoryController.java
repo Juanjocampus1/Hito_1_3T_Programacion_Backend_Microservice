@@ -14,6 +14,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/crud")
+@CrossOrigin(origins = "http://localhost:8081")
 public class InventoryController {
 
     @Autowired

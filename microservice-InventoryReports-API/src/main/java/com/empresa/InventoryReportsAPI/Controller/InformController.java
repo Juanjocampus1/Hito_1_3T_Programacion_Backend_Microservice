@@ -14,6 +14,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/inform")
+@CrossOrigin(origins = "http://localhost:8081")
 public class InformController {
 
     @Autowired
