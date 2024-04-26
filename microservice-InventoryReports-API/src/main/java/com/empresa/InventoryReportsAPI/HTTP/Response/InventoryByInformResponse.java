@@ -8,12 +8,10 @@ import java.util.List;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Setter
-@Getter
 @Builder
-public class InformByInventoryResponse {
+public class InventoryByInformResponse {
 
-    private String InformTitle;
+    private String ReportTitle;
     private byte[] PDFContent;
     private List<InventoryDTO> inventories;
 

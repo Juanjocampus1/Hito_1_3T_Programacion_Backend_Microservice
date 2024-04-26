@@ -9,11 +9,8 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-@Setter
-@Getter
 public class InventoryDTO {
 
-    private Long id;
     private String name;
     private String description;
     private int stock;
@@ -22,5 +19,4 @@ public class InventoryDTO {
     private String provider;
     private Date FechaCreacion;
     private Date FechaActualizacion;
-    private Long idInform;
 }

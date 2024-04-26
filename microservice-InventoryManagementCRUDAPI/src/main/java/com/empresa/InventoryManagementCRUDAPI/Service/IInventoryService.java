@@ -7,12 +7,10 @@ import java.util.Optional;
 
 public interface IInventoryService {
 
-    public List<Inventory> findAll();
-    public Optional<Inventory> findById(Long id);
-    public Inventory findByName(String name);
-    public Inventory save(Inventory inventory);
-    public Inventory update(Inventory inventory);
-    public List<Inventory> findAllByIdInform(Long idInform);
-    public void deleteById(Long id);
-
+    List<Inventory> findAll();
+    Optional<Inventory> findById(Long id);
+    Inventory findByName(String name);
+    void save(Inventory inventory);
+    Inventory update(Inventory inventory);
+    void deleteById(Long id);
 }

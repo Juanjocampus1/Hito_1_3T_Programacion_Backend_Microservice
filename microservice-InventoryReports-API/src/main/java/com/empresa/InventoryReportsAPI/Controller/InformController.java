@@ -20,6 +20,33 @@ public class InformController {
     @Autowired
     private IInformService informService;
 
+    @PostMapping("/generate")
+    public Inform generateAndSaveReport(@RequestBody InformDTO informDTO) {
+        // Crear un nuevo informe con el título y la descripción
+        Inform inform = new Inform();
+        inform.setReportName(informDTO.getReportName());
+        inform.setDescription(informDTO.getDescription());
+
+        // Generar el contenido del PDF
+        String pdfContentString = informService.generateAndSaveReport(
+                informDTO.getReportName(),
+                informDTO.getDescription()).getDescription();
+
+        // Convertir el contenido del PDF a byte[]
+        byte[] pdfContentBytes = pdfContentString.getBytes();
+
+        // Asignar el contenido del PDF al informe
+        inform.setPdfContent(pdfContentBytes);
+
+        // Guardar el informe en la base de datos
+        return informService.save(inform);
+    }
+
+    @GetMapping("/allreports")
+    public List<Inform> getAllInforms() {
+        return informService.findAll();
+    }
+
     @PostMapping("/save")
     public ResponseEntity<?> save(@RequestBody InformDTO informDTO) throws URISyntaxException {
 
@@ -83,8 +110,4 @@ public class InformController {
         }
     }
 
-    @GetMapping("/find-Inventory/{idInform}")
-    public ResponseEntity<?> findInformByInventory(@PathVariable Long idInform) {
-        return ResponseEntity.ok(informService.findById(idInform).orElse(new Inform()));
-    }
 }

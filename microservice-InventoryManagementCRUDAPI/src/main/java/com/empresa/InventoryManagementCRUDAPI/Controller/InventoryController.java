@@ -140,8 +140,4 @@ public class InventoryController {
         }
     }
 
-    @GetMapping("/find-by-inform/{idInform}")
-    public ResponseEntity <?> findAllByIdInform(@PathVariable Long idInform){
-        return ResponseEntity.ok(inventoryService.findAllByIdInform(idInform));
-    }
 }

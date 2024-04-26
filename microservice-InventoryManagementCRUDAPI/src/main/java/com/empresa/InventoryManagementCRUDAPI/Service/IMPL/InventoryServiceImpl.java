@@ -31,7 +31,7 @@ public class InventoryServiceImpl implements IInventoryService {
     }
 
     @Override
-    public Inventory save(Inventory inventory) {
+    public void save(Inventory inventory) {
         // Verificar si ya existe un producto con el mismo nombre
         Inventory existingProduct = inventoryRepository.findByName(inventory.getName());
         if (existingProduct != null) {
@@ -40,11 +40,11 @@ public class InventoryServiceImpl implements IInventoryService {
             existingProduct.setStock(inventory.getStock());
             existingProduct.setPrice(inventory.getPrice());
             // También puedes realizar otras actualizaciones necesarias
-            return inventoryRepository.save(existingProduct);
+            inventoryRepository.save(existingProduct);
         }
         else {
             // Si no existe, guardar el nuevo producto
-            return inventoryRepository.save(inventory);
+            inventoryRepository.save(inventory);
         }
     }
 
@@ -52,11 +52,6 @@ public class InventoryServiceImpl implements IInventoryService {
     public Inventory update(Inventory inventory) {
         //que metodo actualiza?
         return inventoryRepository.save(inventory);
-    }
-
-    @Override
-    public List<Inventory> findAllByIdInform(Long idInform) {
-        return inventoryRepository.findAllByIdInform(idInform);
     }
 
     @Override

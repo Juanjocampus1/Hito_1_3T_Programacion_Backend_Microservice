@@ -43,8 +43,6 @@ pmicroservice-InventoryReports-API/src/main/java/com/empresa/InventoryReportsAPI
 kmicroservice-InventoryReports-API/src/main/java/com/empresa/InventoryReportsAPI/Service/IInformService.java,b\e\be186c826e81f48c66914658e88a06ad01ce50ee
 œ
 lmicroservice-InventoryReports-API/src/main/java/com/empresa/InventoryReportsAPI/Service/Impl/PDFService.java,c\c\cc8cbeba3a977967cc24eb18bb8c5cb9656d77d2
-¬
-|microservice-InventoryReports-API/src/main/java/com/empresa/InventoryReportsAPI/HTTP/Response/InformByInventoryResponse.java,4\6\46e83f941a7d3de25ba57fc76bb81da60ddde628
 ›
 kmicroservice-InventoryReports-API/src/main/java/com/empresa/InventoryReportsAPI/Client/InventoryClient.java,1\3\13b8ef67930475879e03ef122628ff82ab2ed48e
 •
@@ -57,3 +55,5 @@ S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 ]
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
+¬
+|microservice-InventoryReports-API/src/main/java/com/empresa/InventoryReportsAPI/HTTP/Response/InventoryByInformResponse.java,0\0\00519dba54467ce75ed86a0a21933b2020fd8098

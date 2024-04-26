@@ -1,8 +1,16 @@
 
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÀõÕ¤ıÿÿÿÿ8¬²¾ğ1J$d23b5fa1-9bbe-4ed4-963c-117f23290b86
+ˆ	java:S112?"FDefine and throw a dedicated exception instead of using a generic one.(°‹ŒÉ8æ²Ì½ñ1J$56745364-65cf-4125-aa3e-a1f0cd144407
+ˆ	java:S112h"FDefine and throw a dedicated exception instead of using a generic one.(µ·Ğ°8ÜüÎ½ñ1J$45e47905-56a5-4d9f-833b-dc0fea653965
+‰	java:S112‚"FDefine and throw a dedicated exception instead of using a generic one.(ÊŸÑ§8àê½ñ1J$b61d3501-fc13-48e8-851f-c58d81e4f0ec
+‰	java:S112Œ"FDefine and throw a dedicated exception instead of using a generic one.(—²éÃ8ßí˜¾ñ1J$1fa8877e-f24a-497e-be82-0d045f6a90f2
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÀõÕ¤ıÿÿÿÿ8üõ˜»ñ1J$6c686411-4203-43d8-881a-2e2855bdc49b
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8®²¾ğ1J$ec0b070f-846b-4bbb-96ba-df2723017055
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8‰ö˜»ñ1J$7f4385c7-6f5a-43c5-8b94-b61797d83c8f
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8®²¾ğ1J$905e229d-3dc5-4b52-9085-364bc3a1c0d6
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8‰ö˜»ñ1J$951895dc-646c-4777-b710-94f2c6505d25
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8®²¾ğ1J$9b44252c-8920-4ac5-9166-a3811b707912
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8‰ö˜»ñ1J$271d6dc0-5ec9-4723-9f57-50792c29f45c
+¬
+java:S1128"dRemove this unused import 'com.empresa.InventoryReportsAPI.HTTP.Response.InventoryByInformResponse'.(Ÿ¬®ùúÿÿÿÿ8Ï²ó½ñ1J$ff374e4b-8b2b-4b39-8578-a7bb11469874
+€
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8Ï²ó½ñ1J$1010fc2b-a822-4e95-8b31-a80ab72b9198

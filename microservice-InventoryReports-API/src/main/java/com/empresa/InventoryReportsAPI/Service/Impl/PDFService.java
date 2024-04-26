@@ -1,4 +1,5 @@
 package com.empresa.InventoryReportsAPI.Service.Impl;
+
 import com.itextpdf.text.*;
 import com.itextpdf.text.pdf.PdfWriter;
 import org.springframework.stereotype.Service;
@@ -19,6 +20,9 @@ public class PDFService {
         } catch (DocumentException e) {
             e.printStackTrace(); // Manejo de excepciones según tus requerimientos
         }
+
+        // Imprimir el contenido del PDF para depuración
+        System.out.println("PDF Content: " + content);
 
         return outputStream.toByteArray();
     }
