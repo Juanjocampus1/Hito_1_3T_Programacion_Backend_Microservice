@@ -1,16 +1,16 @@
 
-ˆ	java:S112?"FDefine and throw a dedicated exception instead of using a generic one.(°‹ŒÉ8æ²Ì½ñ1J$56745364-65cf-4125-aa3e-a1f0cd144407
-ˆ	java:S112h"FDefine and throw a dedicated exception instead of using a generic one.(µ·Ð°8ÜüÎ½ñ1J$45e47905-56a5-4d9f-833b-dc0fea653965
-‰	java:S112‚"FDefine and throw a dedicated exception instead of using a generic one.(ÊŸÑ§8Žàê½ñ1J$b61d3501-fc13-48e8-851f-c58d81e4f0ec
-‰	java:S112Œ"FDefine and throw a dedicated exception instead of using a generic one.(—²éÃ8ßí˜¾ñ1J$1fa8877e-f24a-497e-be82-0d045f6a90f2
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÀõÕ¤ýÿÿÿÿ8üõ˜»ñ1J$6c686411-4203-43d8-881a-2e2855bdc49b
+ˆ	java:S112?"FDefine and throw a dedicated exception instead of using a generic one.(°‹ŒÉ8æ²Ì½ñ1J$63287656-58f0-463a-b50b-72da59d01a93
+ˆ	java:S112h"FDefine and throw a dedicated exception instead of using a generic one.(µ·Ð°8ÜüÎ½ñ1J$23ebb680-5d27-406b-b4a3-de989c4ea2c8
+‰	java:S112‚"FDefine and throw a dedicated exception instead of using a generic one.(ÊŸÑ§8Žàê½ñ1J$4d1a468f-c5fa-4bfc-ae5c-ae1d2c97ef3d
+‰	java:S112Œ"FDefine and throw a dedicated exception instead of using a generic one.(—²éÃ8ßí˜¾ñ1J$72d555d2-643f-4921-b5a4-836c9ed6318d
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÀõÕ¤ýÿÿÿÿ8üõ˜»ñ1J$66e5b37a-3d56-4338-bb67-b70eca3421d6
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8‰ö˜»ñ1J$7f4385c7-6f5a-43c5-8b94-b61797d83c8f
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8‰ö˜»ñ1J$72868b15-c747-40c1-9700-2f8985fbc521
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8‰ö˜»ñ1J$951895dc-646c-4777-b710-94f2c6505d25
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8‰ö˜»ñ1J$e2d3d321-ef69-4fb6-8833-8a1cfc036914
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8‰ö˜»ñ1J$271d6dc0-5ec9-4723-9f57-50792c29f45c
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8‰ö˜»ñ1J$36a0ef0c-2417-4f3e-90f5-c3b9ebad805c
 ¬
-java:S1128"dRemove this unused import 'com.empresa.InventoryReportsAPI.HTTP.Response.InventoryByInformResponse'.(Ÿ¬®ùúÿÿÿÿ8Ï²ó½ñ1J$ff374e4b-8b2b-4b39-8578-a7bb11469874
+java:S1128"dRemove this unused import 'com.empresa.InventoryReportsAPI.HTTP.Response.InventoryByInformResponse'.(Ÿ¬®ùúÿÿÿÿ8Ï²ó½ñ1J$09df6c5f-a543-47be-b96b-fb123d7aba4d
 €
-java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8Ï²ó½ñ1J$1010fc2b-a822-4e95-8b31-a80ab72b9198
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8Ï²ó½ñ1J$a773c04d-a607-436f-9882-b16aa4f6dd89

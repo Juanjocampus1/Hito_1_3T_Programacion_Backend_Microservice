@@ -73,7 +73,7 @@ public class InformServiceImpl implements IInformService {
             pdfContentString.append("Categoría: ").append(inventoryDTO.getCategory()).append("\n");
             pdfContentString.append("Proveedor: ").append(inventoryDTO.getProvider()).append("\n");
             pdfContentString.append("Fecha de creación: ").append(inventoryDTO.getFechaCreacion()).append("\n");
-            pdfContentString.append("Fecha de actualización: ").append(inventoryDTO.getFechaActualizacion()).append("\n");
+            pdfContentString.append("Fecha de actualización: ").append(inventoryDTO.getFechaActualizacion()).append("\n\n");
         }
 
         // Usar el servicio para crear el PDF
@@ -119,7 +119,7 @@ public class InformServiceImpl implements IInformService {
             pdfContentString.append("Categoría: ").append(inventoryDTO.getCategory()).append("\n");
             pdfContentString.append("Proveedor: ").append(inventoryDTO.getProvider()).append("\n");
             pdfContentString.append("Fecha de creación: ").append(inventoryDTO.getFechaCreacion()).append("\n");
-            pdfContentString.append("Fecha de actualización: ").append(inventoryDTO.getFechaActualizacion()).append("\n");
+            pdfContentString.append("Fecha de actualización: ").append(inventoryDTO.getFechaActualizacion()).append("\n\n");
         }
 
         // Usar el servicio para crear el PDF
