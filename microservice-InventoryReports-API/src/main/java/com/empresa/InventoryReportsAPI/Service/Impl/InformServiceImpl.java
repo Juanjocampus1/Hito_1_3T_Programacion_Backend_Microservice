@@ -96,14 +96,6 @@ public class InformServiceImpl implements IInformService {
         inform.setReportName(reportTitle);
         inform.setDescription(content);
 
-        // Guardar el Inform en la base de datos
-        Inform savedInform;
-        try {
-            savedInform = informRepository.save(inform);
-        } catch (Exception e) {
-            throw new RuntimeException("Error al guardar el informe en la base de datos.", e);
-        }
-
         // Obtener todos los datos de InventoryDTO
         List<InventoryDTO> allInventories = inventoryClient.findAll();
 
@@ -130,14 +122,10 @@ public class InformServiceImpl implements IInformService {
             throw new RuntimeException("Error al generar el contenido del PDF.");
         }
 
-        // Establecer el contenido del PDF en el Inform guardado
-        savedInform.setPdfContent(pdfContent);
+        // Establecer el contenido del PDF en el Inform
+        inform.setPdfContent(pdfContent);
 
-        // Actualizar el Inform en la base de datos con el contenido del PDF
-        try {
-            return informRepository.save(savedInform);
-        } catch (Exception e) {
-            throw new RuntimeException("Error al actualizar el informe en la base de datos con el contenido del PDF.", e);
-        }
+        // Devolver el Inform con el contenido del PDF, pero sin guardarlo en la base de datos
+        return inform;
     }
 }
