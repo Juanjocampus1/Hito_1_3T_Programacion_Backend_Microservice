@@ -6,6 +6,7 @@ import com.empresa.InventoryManagementCRUDAPI.Service.IInventoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
@@ -44,13 +45,18 @@ public class InventoryServiceImpl implements IInventoryService {
         }
         else {
             // Si no existe, guardar el nuevo producto
+            if (inventory.getFechaCreacion() == null || inventory.getFechaActualizacion() == null) {
+                inventory.setFechaCreacion(new Date());
+                inventory.setFechaActualizacion(new Date());
+            }
             inventoryRepository.save(inventory);
         }
     }
 
     @Override
     public Inventory update(Inventory inventory) {
-        //que metodo actualiza?
+        // Actualizar el producto
+        inventory.setFechaActualizacion(new Date());
         return inventoryRepository.save(inventory);
     }
 

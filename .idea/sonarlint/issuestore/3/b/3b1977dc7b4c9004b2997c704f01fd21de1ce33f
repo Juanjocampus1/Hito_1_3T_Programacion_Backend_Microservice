@@ -1,18 +1,18 @@
 
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(§Ä¼8‡şõ½ğ1J$9c289157-bd0f-4eea-bd64-b95dbb552db2
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(§Ä¼8‡şõ½ğ1J$8cd755bc-8775-4c42-a4f0-d6857ec33626
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8µşõ½ğ1J$de8ed0df-3825-4f1e-9fb7-811f00972d11
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8µşõ½ğ1J$56b8bc6c-8d10-471e-95f5-9e9d7db62ac7
 i
-java:S1452"&Remove usage of generic wildcard type.(û­®¡8„ÿõ½ğ1J$7be29c31-56be-4962-a985-79cd2fac2fd5
+java:S1452"&Remove usage of generic wildcard type.(û­®¡8„ÿõ½ğ1J$0cebb545-abb6-4e9a-a60c-85ea708e5a4c
 ‰
-java:S1075'"ARefactor your code to get this URI from a customizable parameter.(Üş¢…ûÿÿÿÿ8ÿõ½ğ1J$1f615bcd-fdfe-4a51-b3a1-da6462eb8153
+java:S1075'"ARefactor your code to get this URI from a customizable parameter.(Üş¢…ûÿÿÿÿ8ÿõ½ğ1J$9b95c077-8da8-49a7-b218-a0bdef81cbf5
 n
-java:S1452,"&Remove usage of generic wildcard type.(Üõ¶¶ûÿÿÿÿ8ÿõ½ğ1J$e38ea5de-3135-4df5-be3f-9ca7bccd4245
+java:S1452,"&Remove usage of generic wildcard type.(Üõ¶¶ûÿÿÿÿ8ÿõ½ğ1J$fa92cf81-312d-4845-a9ee-8bc22a855b9c
 n
-java:S1452E"&Remove usage of generic wildcard type.(åÓêáùÿÿÿÿ8™ÿõ½ğ1J$8195c1ab-200a-45c9-b3b8-d5061fdb81d6
+java:S1452E"&Remove usage of generic wildcard type.(åÓêáùÿÿÿÿ8™ÿõ½ğ1J$89e22d57-5343-4788-90bb-f129c57a62e2
 i
-java:S1452["&Remove usage of generic wildcard type.(òª’8£ÿõ½ğ1J$867658b6-cbd5-4d9f-b9c1-40bc68789096
+java:S1452["&Remove usage of generic wildcard type.(òª’8£ÿõ½ğ1J$f633d749-e9b0-4496-a1ee-96f0ca6f563a
 i
-java:S1452n"&Remove usage of generic wildcard type.(¦§Ç³8«ÿõ½ğ1J$00256c39-f8c9-4baf-8496-628091acbd22
+java:S1452n"&Remove usage of generic wildcard type.(¦§Ç³8«ÿõ½ğ1J$1e6b051b-d5ba-416d-bcaa-7396886ea2c5
 i
-java:S1452…"&Remove usage of generic wildcard type.(ªûœ-8³ÿõ½ğ1J$ce93ead8-c350-461f-802f-6a717b1d77e7
+java:S1452…"&Remove usage of generic wildcard type.(ªûœ-8³ÿõ½ğ1J$55e3eefc-f27e-4dc9-9af1-2a06b3f8e631
