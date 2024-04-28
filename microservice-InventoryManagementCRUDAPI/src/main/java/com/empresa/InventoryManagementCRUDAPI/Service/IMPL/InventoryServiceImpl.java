@@ -55,6 +55,14 @@ public class InventoryServiceImpl implements IInventoryService {
 
     @Override
     public Inventory update(Inventory inventory) {
+        // Obtener el producto existente
+        Inventory existingProduct = inventoryRepository
+                .findById(inventory.getId())
+                .orElseThrow(() -> new RuntimeException("No se encontró el producto con el id: " + inventory.getId()));
+        // Si la fecha de creación viene como null, mantener la fecha de creación original
+        if (inventory.getFechaCreacion() == null) {
+            inventory.setFechaCreacion(existingProduct.getFechaCreacion());
+        }
         // Actualizar el producto
         inventory.setFechaActualizacion(new Date());
         return inventoryRepository.save(inventory);

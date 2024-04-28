@@ -1,14 +1,14 @@
 
-ˆ	java:S112?"FDefine and throw a dedicated exception instead of using a generic one.(°‹ŒÉ8æ²Ì½ñ1J$f0f8b81b-b7f1-4757-b216-2523ec143bff
-ˆ	java:S112z"FDefine and throw a dedicated exception instead of using a generic one.(ÊŸÑ§8íùèúñ1J$8ceefded-5469-4c54-9397-0b026414b357
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÀõÕ¤ýÿÿÿÿ8üõ˜»ñ1J$a16b8d89-10a6-4281-ada4-ebbafad99931
+ˆ	java:S112?"FDefine and throw a dedicated exception instead of using a generic one.(°‹ŒÉ8æ²Ì½ñ1J$0b9aa9ec-0fb0-49f9-bf5e-cb8113285f9f
+ˆ	java:S112z"FDefine and throw a dedicated exception instead of using a generic one.(ÊŸÑ§8íùèúñ1J$0ac084e2-9624-42c0-8f8a-ee3e79ccb093
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÀõÕ¤ýÿÿÿÿ8üõ˜»ñ1J$d6311161-ac2f-4f22-b6e6-606f12338de8
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8‰ö˜»ñ1J$49711245-e9a0-4405-9ac5-789582d556ad
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8‰ö˜»ñ1J$2101a8df-3b14-420d-8c63-5e52633b1d56
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8‰ö˜»ñ1J$2bd80b47-c476-488e-96c7-89d40f62629e
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8‰ö˜»ñ1J$f76b5e93-df6e-4fc0-99e7-138aab3e33f2
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8‰ö˜»ñ1J$0b57c00b-4266-4c4b-b2d4-684702170394
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8‰ö˜»ñ1J$88e6a360-604f-45f7-8d48-b3e8d4cdd620
 ¬
-java:S1128"dRemove this unused import 'com.empresa.InventoryReportsAPI.HTTP.Response.InventoryByInformResponse'.(Ÿ¬®ùúÿÿÿÿ8Ï²ó½ñ1J$af906cac-9571-4d68-a15d-33f1363b74c1
+java:S1128"dRemove this unused import 'com.empresa.InventoryReportsAPI.HTTP.Response.InventoryByInformResponse'.(Ÿ¬®ùúÿÿÿÿ8Ï²ó½ñ1J$38c92995-23e1-4ab1-9424-cd1f654a5804
 €
-java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8Ï²ó½ñ1J$5d027967-3a4e-4151-935f-7e50fc8b27b0
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8Ï²ó½ñ1J$8c0536c6-fb89-4ff4-a51c-94af2eef2eb7
