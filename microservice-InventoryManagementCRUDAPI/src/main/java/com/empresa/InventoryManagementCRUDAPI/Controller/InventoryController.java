@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
@@ -119,8 +120,13 @@ public class InventoryController {
             inventory.setPrice(inventoryDTO.getPrice());
             inventory.setCategory(inventoryDTO.getCategory());
             inventory.setProvider(inventoryDTO.getProvider());
-            inventory.setFechaCreacion(inventoryDTO.getFechaCreacion());
-            inventory.setFechaActualizacion(inventoryDTO.getFechaActualizacion());
+
+            // Mantener la fecha de creación original
+            inventory.setFechaCreacion(inventoryOptional.get().getFechaCreacion());
+
+            // Actualizar la fecha de actualización a la fecha actual
+            inventory.setFechaActualizacion(new Date());
+
             inventoryService.save(inventory);
             return ResponseEntity.ok("Inventory updated");
         }

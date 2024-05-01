@@ -71,3 +71,17 @@ w
 G.idea/sonarlint/issuestore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e,a\e\ae9ddf453f55affea2d6b9e3973cac1eb2efb4e1
 Ö
 Umicroservice-ApiGateway/src/main/java/com/empresa/ApiGateway/GatewayRoutesConfig.java,e\6\e6a212c1ff4941e009c09d15b962220f22db9bc0
+ó
+gmicroservice-ApiGateway/src/test/java/com/empresaApiGateway/MicroserviceApiGatewayApplicationTests.java,3\a\3ac379d88b396f710c91fb7f76524a7da87e56b5
+…
+òmicroservice-InventoryManagementCRUDAPI/src/test/java/com/empresa/InventoryManagementCRUDAPI/MicroserviceInventoryManagementCrudapiApplicationTests.java,7\8\78cb429bb566ed68be8259465c48f160de818a55
+µ
+Ñmicroservice-InventoryReports-API/src/test/java/com/empresa/InventoryReportsAPI/MicroserviceInventoryReportsApiApplicationTests.java,1\e\1e2dabbb482224113c8ac97febb8aa9cf6354284
+Å
+Q.idea/sonarlint/securityhotspotstore/3/a/3ac379d88b396f710c91fb7f76524a7da87e56b5,a\f\af0edcf82472238941099aa4dc46871500a01dff
+Å
+Q.idea/sonarlint/securityhotspotstore/7/8/78cb429bb566ed68be8259465c48f160de818a55,7\c\7c490de0dc153deb4d59912f72a4a2d38b166be9
+Å
+Q.idea/sonarlint/securityhotspotstore/e/6/e6a212c1ff4941e009c09d15b962220f22db9bc0,c\5\c5368687d464968389529615b807ebdc581de1f2
+Å
+Q.idea/sonarlint/securityhotspotstore/1/e/1e2dabbb482224113c8ac97febb8aa9cf6354284,9\f\9f03378b52ffd9e23c3fa13b4822aa3746cf242d

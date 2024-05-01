@@ -33,39 +33,42 @@ public class InventoryServiceImpl implements IInventoryService {
 
     @Override
     public void save(Inventory inventory) {
-        // Verificar si ya existe un producto con el mismo nombre
-        Inventory existingProduct = inventoryRepository.findByName(inventory.getName());
-        if (existingProduct != null) {
-            // Si ya existe, actualizar el producto existente
-            existingProduct.setDescription(inventory.getDescription());
-            existingProduct.setStock(inventory.getStock());
-            existingProduct.setPrice(inventory.getPrice());
-            // También puedes realizar otras actualizaciones necesarias
-            inventoryRepository.save(existingProduct);
-        }
-        else {
             // Si no existe, guardar el nuevo producto
-            if (inventory.getFechaCreacion() == null || inventory.getFechaActualizacion() == null) {
+            if (inventory.getFechaCreacion() == null ) {
                 inventory.setFechaCreacion(new Date());
+            }
+            if (inventory.getFechaActualizacion() == null){
                 inventory.setFechaActualizacion(new Date());
             }
             inventoryRepository.save(inventory);
-        }
     }
 
     @Override
     public Inventory update(Inventory inventory) {
         // Obtener el producto existente
+        // Obtener el producto existente
         Inventory existingProduct = inventoryRepository
                 .findById(inventory.getId())
                 .orElseThrow(() -> new RuntimeException("No se encontró el producto con el id: " + inventory.getId()));
-        // Si la fecha de creación viene como null, mantener la fecha de creación original
-        if (inventory.getFechaCreacion() == null) {
-            inventory.setFechaCreacion(existingProduct.getFechaCreacion());
-        }
-        // Actualizar el producto
+
+        // Mantener la fecha de creación original
+        inventory.setFechaCreacion(existingProduct.getFechaCreacion());
+
+        // Actualizar la fecha de actualización a la fecha actual
         inventory.setFechaActualizacion(new Date());
-        return inventoryRepository.save(inventory);
+
+        // Actualizar el resto de los campos
+        inventory.setName(inventory.getName());
+        inventory.setDescription(inventory.getDescription());
+        inventory.setStock(inventory.getStock());
+        inventory.setPrice(inventory.getPrice());
+        inventory.setCategory(inventory.getCategory());
+        inventory.setProvider(inventory.getProvider());
+
+        // Llamar al método save con la fecha de creación del producto existente
+        save(inventory);
+
+        return inventory;
     }
 
     @Override
