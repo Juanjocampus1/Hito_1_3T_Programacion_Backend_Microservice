@@ -69,3 +69,5 @@ Q.idea/sonarlint/securityhotspotstore/a/9/a90394d80538b4d2641b763e5829bb8a964ffa
 Q.idea/sonarlint/securityhotspotstore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0,b\b\bbf202272a96de5cd6b6828ffdc55fb3ce45289c
 w
 G.idea/sonarlint/issuestore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e,a\e\ae9ddf453f55affea2d6b9e3973cac1eb2efb4e1
+…
+Umicroservice-ApiGateway/src/main/java/com/empresa/ApiGateway/GatewayRoutesConfig.java,e\6\e6a212c1ff4941e009c09d15b962220f22db9bc0
