@@ -7,11 +7,11 @@ spring:
 
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/inventorydb
-    #url: jdbc:mysql://inventorydb.cv4qesycas0y.eu-north-1.rds.amazonaws.com:3306/inventorydb
+    #url: jdbc:mysql://localhost:3306/inventorydb
+    url: jdbc:mysql://inventorydb.cv4qesycas0y.eu-north-1.rds.amazonaws.com:3306/inventorydb
     username: root
-    password: curso
-    #password: D1p4w38Cu*
+    #password: curso
+    password: D1p4w38Cu*
   jpa:
     hibernate:
       ddl-auto: create-drop
@@ -21,7 +21,7 @@ spring:
 
 eureka:
   instance:
-    hostname: localhost
+    hostname: 13.48.29.69
   client:
     service-url:
       defaultZone: http://${eureka.instance.hostname}:8761/eureka

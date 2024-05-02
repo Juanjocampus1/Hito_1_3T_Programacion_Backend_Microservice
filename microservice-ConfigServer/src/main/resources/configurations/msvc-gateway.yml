@@ -11,10 +11,10 @@ spring:
           enabled: true
       routes:
         - id: InventoryManagementCRUDAPI
-          uri: http://localhost:8090
+          uri: http://13.48.29.69:8090
           predicates:
             - Path=/api/crud/**
         - id: InventoryReportsAPI
-          uri: http://localhost:9090
+          uri: http://13.48.29.69:9090
           predicates:
             - Path=/api/inform/**

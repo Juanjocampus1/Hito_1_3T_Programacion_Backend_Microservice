@@ -6,7 +6,7 @@ spring:
     name: msvc-eureka
 eureka:
   instance:
-    hostname: localhost
+    hostname: 13.48.29.69
   client:
     registerWithEureka: false
     fetchRegistry: false

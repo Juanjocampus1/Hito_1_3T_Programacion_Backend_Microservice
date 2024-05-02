@@ -6,6 +6,8 @@ spring:
     active: native
   application:
     name: config-server
+  config:
+    import: optional:configserver:http://13.48.29.69:8888
   cloud:
     config:
       server:
