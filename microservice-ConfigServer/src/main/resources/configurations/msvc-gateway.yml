@@ -1,5 +1,6 @@
 server:
   port: 8081
+  address: 13.48.29.69
 
 spring:
   application:
