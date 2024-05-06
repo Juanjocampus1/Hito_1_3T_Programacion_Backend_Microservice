@@ -2,4 +2,5 @@ spring:
   application:
     name: msvc-InventoryManagementCRUDAPI
   config:
-    import: optional:configserver:http://13.48.29.69:8888
+    #import: optional:configserver:http://13.48.29.69:8888
+    import: optional:configserver:http://localhost:8888

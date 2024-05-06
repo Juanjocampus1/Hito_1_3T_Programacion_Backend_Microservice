@@ -1,6 +1,6 @@
 server:
   port: 8090
-  address: 13.48.29.69
+  #address: 13.48.29.69
 
 spring:
   application:
@@ -22,7 +22,8 @@ spring:
 
 eureka:
   instance:
-    hostname: 13.48.29.69
+    #hostname: 13.48.29.69
+    hostname: localhost
   client:
     service-url:
       defaultZone: http://${eureka.instance.hostname}:8761/eureka

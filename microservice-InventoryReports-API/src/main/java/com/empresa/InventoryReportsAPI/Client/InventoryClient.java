@@ -6,7 +6,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 import java.util.List;
 
-@FeignClient(name = "msvc-InventoryManagementCRUDAPI", url = "13.48.29.69:8081/api/crud")
+@FeignClient(name = "msvc-InventoryManagementCRUDAPI", url = "localhost:8081/api/crud")
+//@FeignClient(name = "msvc-InventoryManagementCRUDAPI", url = "13.48.29.69:8081/api/crud")
+
 public interface InventoryClient {
 
     @GetMapping("/findAll")
